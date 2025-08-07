@@ -1,10 +1,9 @@
-# Collect message count from user
+
 num_messages = int(input("Enter number of messages: "))
 
-# Dictionary to store messages by user
+
 chat = {}
 
-# List to store all messages (for global operations)
 all_messages = []
 
 for i in range(num_messages):
@@ -20,11 +19,11 @@ for i in range(num_messages):
 
     all_messages.append((name, message))
 
-# Function to count words in a message
+
 def count_words(msg):
     return len(msg.split())
 
-# Main menu loop
+
 while True:
     print("\nMenu:")
     print("1. Total number of messages")
