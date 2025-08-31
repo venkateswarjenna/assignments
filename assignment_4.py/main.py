@@ -13,11 +13,8 @@ menu = {
     8: mp.title_case,
     9: mp.factorial_number,
     10: mp.fibonacci_series,
-    11: mp.palindrome_string,
-    12: mp.prime_check,
-    13: mp.decimal_to_binary,
-    14: mp.max_in_list,
-    15: mp.custom_sort
+ 
+   
 }
 
 while True:
